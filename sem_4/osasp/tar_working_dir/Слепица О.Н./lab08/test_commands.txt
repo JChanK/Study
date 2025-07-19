@@ -1,0 +1,16 @@
+INFO
+ECHO Hello, World!
+ECHO Тестовая строка
+LIST
+CD subdir1
+LIST
+ECHO Сейчас мы в subdir1
+CD subdir2
+LIST
+CD ../..
+LIST
+ECHO Вернулись в корень
+CD nonexistent
+LIST
+QUIT
+EOF
